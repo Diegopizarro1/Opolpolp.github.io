@@ -1,0 +1,33 @@
+@charset "utf-8";
+p.letra{
+	font-style: oblique;
+}
+p.avoso{
+	color: red;
+}
+p.borde-1{
+	border: red 3px solid;
+}
+p.borde-2{
+	border: red 3px dotted;
+}
+#boton{
+	padding: 0;
+}
+#boton li{
+	display: inline;
+}
+#boton li a{
+	font-family: Arial;
+	font-size: 20px;
+	text-decoration: none;
+	floot: left;
+	padding: 10px;
+	background-color: #11188F;
+	color: aqua;
+}
+#boton li a:hover{
+	background-color: #139B2B;
+	margin-top: -2;
+	padding-bottom: 12px;
+}
